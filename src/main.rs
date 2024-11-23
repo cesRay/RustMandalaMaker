@@ -72,7 +72,7 @@ fn main() -> opencv::Result<()> {
     highgui::wait_key(0)?;
 
     // Save the image to a file
-    imgcodecs::imwrite("public/images/edges.jpg", &edges, &core::Vector::<i32>::new())?;
+    imgcodecs::imwrite("public/images/mandala.jpg", &finished, &core::Vector::<i32>::new())?;
 
     Ok(())
 }
