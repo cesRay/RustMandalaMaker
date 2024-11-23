@@ -1,0 +1,10 @@
+[package]
+name = "OpenCVExercise"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+dotenv = "0.15.0"
+opencv = "0.93.4"
+statrs = "0.17.1"
+rfd = "0.15.1"
